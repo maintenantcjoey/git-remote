@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Item{% endblock %}
+{% block content %}
+    <section>
+        <h1>L'item {{ item.title }}</h1>
+    </section>
+
+    <a href="/items/add">Ajouter un item</a>
+{% endblock %}

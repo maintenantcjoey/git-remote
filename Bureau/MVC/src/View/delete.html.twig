@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Add{% endblock %}
+{% block content %}
+    <form action="" method="POST">
+        <p style="text-align: center">Etes vous surs de vouloir supprimer cet objet ?</p>
+        <p>{{ item.title }}</p>
+        <div  style="text-align: center">
+            <button type="submit" name="submit" id="supprimer">Supprimer</button>
+        </div>
+
+    </form>
+    <a href="/">Back</a>
+{% endblock %}

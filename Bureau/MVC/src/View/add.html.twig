@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Add{% endblock %}
+{% block content %}
+<form action="" method="POST">
+    <p style="text-align: center">Ajoutez un nouvel Item</p>
+
+    <div style="text-align: center">
+        <input type="text" name="title">
+    </div>
+<div  style="text-align: center">
+    <button type="submit" name="envoyer" id="envoyer">Envoyer</button>
+</div>
+</form>
+    <a href="/">Back</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Add{% endblock %}
+{% block content %}
+    <form action="" method="POST">
+        <div style="text-align: center">
+        <p style="text-align: center">Souhaitez vous modifier cet objet ?</p>
+        <p>{{ item.title }}</p>
+        <input type="text" name="title">
+            <button type="submit" name="submit" id="update">Modifier</button>
+        </div>
+
+    </form>
+    <a href="/">Back</a>
+{% endblock %}
